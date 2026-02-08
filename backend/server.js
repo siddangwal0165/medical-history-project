@@ -21,3 +21,7 @@ app.get("/prescription", async (req, res) => {
 app.listen(5000, () => {
   console.log("Server started on port 5000");
 });
+app.get("/health", (req, res) => {
+  res.send("Server is healthy");
+});
+

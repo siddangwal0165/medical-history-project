@@ -6,6 +6,9 @@ const prescriptionSchema = new mongoose.Schema({
   medicines: String,
   date: String,
   notes: String
-});
+},
+{ timestamps: true }
+);
+ 
 
 module.exports = mongoose.model("Prescription", prescriptionSchema);
