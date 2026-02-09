@@ -2,8 +2,9 @@ const express = require("express");
 const mongoose = require("mongoose");
 const Prescription = require("./models/prescription");
 const Report = require("./models/report");
-
+const cors = require("cors");
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 mongoose.connect("mongodb://127.0.0.1:27017/medical-history");
