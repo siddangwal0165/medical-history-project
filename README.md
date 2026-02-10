@@ -1,4 +1,15 @@
-This project is a small attempt to organize medical prescriptions and records in one place
-I started this because managing my mother’s long-term medical history across papers and photos was difficult
-Right now, the backend can save and fetch prescriptions using Node.js, Express, and MongoDB.
-More features like reports and a  frontend will be added gradually.
+Medical History Management Dashboard
+
+This project is a simple system to store and view medical prescriptions and diagnostic reports in one place.
+
+Current features:
+- Backend APIs for prescriptions and reports
+- Data stored in MongoDB
+- Frontend displays saved data
+
+Tech stack:
+- React
+- Node.js (Express)
+- MongoDB
+
+This project is being built step by step as part of a learning and problem-solving exercise.
